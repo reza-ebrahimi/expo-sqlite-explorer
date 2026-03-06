@@ -1,0 +1,51 @@
+{
+  "name": "expo-sqlite-explorer",
+  "version": "1.0.0",
+  "author": "Reza Ebrahimi <reza.ebrahimi.dev@gmail.com>",
+  "license": "MIT",
+  "description": "A SQLite database browser and explorer for Expo based React Native applications",
+  "main": "index.ts",
+  "types": "index.ts",
+  "files": [
+    "src",
+    "index.ts"
+  ],
+  "scripts": {
+    "compile": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "keywords": [
+    "react-native",
+    "sqlite",
+    "database",
+    "explorer",
+    "browser",
+    "expo",
+    "development",
+    "debugging"
+  ],
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-native": ">=0.72.0",
+    "react-native-svg": ">=15.12.1",
+    "expo-sqlite": ">=14.0.0",
+    "expo-clipboard": ">=6.0.0",
+    "mobx": ">=6.0.0",
+    "mobx-react-lite": ">=4.0.0"
+  },
+  "dependencies": {
+    "colord": "^2.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.0",
+    "@types/react": "~19.1.10",
+    "expo-clipboard": "~8.0.8",
+    "expo-sqlite": "~16.0.10",
+    "mobx": "^6.13.5",
+    "mobx-react-lite": "^4.1.0",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-svg": "15.12.1",
+    "typescript": "~5.8.3"
+  }
+}
