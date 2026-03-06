@@ -1,5 +1,9 @@
 # expo-sqlite-explorer
 
+[![npm version](https://img.shields.io/npm/v/expo-sqlite-explorer.svg?style=flat-square)](https://www.npmjs.com/package/expo-sqlite-explorer)
+[![npm downloads](https://img.shields.io/npm/dm/expo-sqlite-explorer.svg?style=flat-square)](https://www.npmjs.com/package/expo-sqlite-explorer)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+
 A SQLite database browser and explorer component for React Native and Expo applications. Provides a complete UI for browsing tables, viewing data, executing queries, and analyzing schema.
 
 ## Features
@@ -194,11 +198,22 @@ import type {
   ColumnStatistics,
 } from "expo-sqlite-explorer";
 
-// Utilities
-import {
-  formatCellValue,
-  copyToClipboard,
-  exportToCSV,
-  exportToJSON,
-} from "expo-sqlite-explorer";
+## Development
+
+To build the project locally:
+
+```bash
+# Install dependencies
+npm install
+
+# Compile TypeScript to dist/
+npm run build
+
+# Run TypeScript type check
+npm run compile
+```
+
+## License
+
+MIT © [Reza Ebrahimi](mailto:reza.ebrahimi.dev@gmail.com)
 ```
