@@ -1,6 +1,6 @@
 {
   "name": "expo-sqlite-explorer",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Reza Ebrahimi <reza.ebrahimi.dev@gmail.com>",
   "license": "MIT",
   "description": "A SQLite database browser and explorer for Expo based React Native applications",
