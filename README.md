@@ -197,6 +197,7 @@ import type {
   ColumnInfo,
   ColumnStatistics,
 } from "expo-sqlite-explorer";
+```
 
 ## Development
 
@@ -216,4 +217,3 @@ npm run compile
 ## License
 
 MIT © [Reza Ebrahimi](mailto:reza.ebrahimi.dev@gmail.com)
-```
