@@ -1,18 +1,23 @@
 {
   "name": "expo-sqlite-explorer",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "author": "Reza Ebrahimi <reza.ebrahimi.dev@gmail.com>",
   "license": "MIT",
   "description": "A SQLite database browser and explorer for Expo based React Native applications",
-  "main": "index.ts",
-  "types": "index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
+    "dist",
     "src",
-    "index.ts"
+    "index.ts",
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
     "compile": "tsc --noEmit",
-    "build": "tsc"
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "react-native",
